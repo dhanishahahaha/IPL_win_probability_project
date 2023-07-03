@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-pipe = pickle.load(open('/content/drive/MyDrive/pipe.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
 
 teams=['Sunrisers Hyderabad',
  'Mumbai Indians',
